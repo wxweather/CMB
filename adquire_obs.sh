@@ -43,22 +43,7 @@ export LANG=en_us_8859_1
 
 
 MACH=`uname -a | cut -c1-5` 
-if [ $MACH = "Linux" ];then 
-export PATH=$PATH:/usr/local/grads
-export GADDIR=/usr/local/grads
-export GADLIB=/usr/local/grads
-export GASCRP=/usr/local/grads
-fi 
-#%
-#% maquina da UFF 
-#%
-MACH=`uname -a | cut -c7-11` 
-if [ $MACH = "DEAMA" ];then 
-export PATH=/home/cataldi/SCRIPT/grads:$PATH
-export GADDIR=/home/cataldi/SCRIPT/grads
-export GADLIB=/home/cataldi/SCRIPT/grads
-export GASCRP=/home/cataldi/SCRIPT/grads
-fi 
+ 
  
 export  FIGURA=1
 
