@@ -31,3 +31,5 @@ SIM ladoesquerdo_baciaparanapanema.bacia   PANEMAESQUERDO   ladoesquerdo_paranap
 SIM paranazao_parte1.bacia                 PARANAZAO1       paranazao_parte1            paranazao_parte1.shp                -49.4369   -54.8577   -18.7409   -22.5094 PAISAGEM SIM NAO
 SIM paranazao_parte2.bacia                 PARANAZAO2       paranazao_parte2            paranazao_parte2.shp                -49.5177   -53.5196   -17.0301   -21.0392 PAISAGEM SIM NAO
 SIM paranazao_parte3.bacia                 PARANAZAO3       paranazao_parte3            paranazao_parte3.shp                -47.6901   -51.2919   -20.5223   -22.8031 PAISAGEM SIM NAO
+SIM barrabonita.bacia                      BARRABONITA      barrabonita                 nenhum.shp                          -47.6901   -51.2919   -20.5223   -22.8031 PAISAGEM NAO NAO
+SIM promissao.bacia                        PROMISSAO        promissao                   nenhum.shp                          -47.6901   -51.2919   -20.5223   -22.8031 PAISAGEM NAO NAO   
