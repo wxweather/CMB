@@ -33,3 +33,6 @@ SIM paranazao_parte2.bacia                 PARANAZAO2       paranazao_parte2    
 SIM paranazao_parte3.bacia                 PARANAZAO3       paranazao_parte3            paranazao_parte3.shp                -47.6901   -51.2919   -20.5223   -22.8031 PAISAGEM SIM NAO
 SIM barrabonita.bacia                      BARRABONITA      barrabonita                 nenhum.shp                          -47.6901   -51.2919   -20.5223   -22.8031 PAISAGEM NAO NAO
 SIM promissao.bacia                        PROMISSAO        promissao                   nenhum.shp                          -47.6901   -51.2919   -20.5223   -22.8031 PAISAGEM NAO NAO   
+SIM PassosMaia.bacia                       PASSOSMAIA       PassosMaia                  nenhum.shp                          -47.6901   -51.2919   -20.5223   -22.8031 PAISAGEM NAO NAO   
+SIM SantaLaura.bacia                       SANTALAURA       SantaLaura                  nenhum.shp                          -47.6901   -51.2919   -20.5223   -22.8031 PAISAGEM NAO NAO   
+SIM Moinho.bacia                           MOINHO           Moinho                      nenhum.shp                          -47.6901   -51.2919   -20.5223   -22.8031 PAISAGEM NAO NAO    
