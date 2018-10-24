@@ -86,7 +86,9 @@ echo $datagrads      >>./LOG.prn 2>&1
 #
 echo "["`date`"] BAIXANDO DADOS ETA 40KM " 
 echo "["`date`"] BAIXANDO DADOS ETA 40KM "  >>./LOG.prn 2>&1
-wget -nc ftp://ftp1.cptec.inpe.br/modelos/io/tempo/regional/Eta40km_ENS/prec24/$data$hora/* >>./LOG.prn 2>&1
+
+wget -nc http://ftp1.cptec.inpe.br/etamdl/Products/Eta_tempo/Eta40km/prec24/Etaens_P1D0_CPTM00/$data$hora/* >>./LOG.prn 2>&1
+#####wget -nc ftp://ftp1.cptec.inpe.br/modelos/io/tempo/regional/Eta40km_ENS/prec24/$data$hora/* >>./LOG.prn 2>&1
 #
 # existem 10 arquivos .bin
 # separados fica dificil de trabalhar com os arquivos
