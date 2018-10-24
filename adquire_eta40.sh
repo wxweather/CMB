@@ -87,7 +87,20 @@ echo $datagrads      >>./LOG.prn 2>&1
 echo "["`date`"] BAIXANDO DADOS ETA 40KM " 
 echo "["`date`"] BAIXANDO DADOS ETA 40KM "  >>./LOG.prn 2>&1
 
-wget -nc http://ftp1.cptec.inpe.br/etamdl/Products/Eta_tempo/Eta40km/prec24/Etaens_P1D0_CPTM00/$data$hora/* >>./LOG.prn 2>&1
+wget -nc http://ftp1.cptec.inpe.br/etamdl/Products/Eta_tempo/Eta40km/prec24/Etaens_P1D0_CPTM00/$data$hora/"pp"$data"_0036.bin"
+wget -nc http://ftp1.cptec.inpe.br/etamdl/Products/Eta_tempo/Eta40km/prec24/Etaens_P1D0_CPTM00/$data$hora/"pp"$data"_0060.bin"
+wget -nc http://ftp1.cptec.inpe.br/etamdl/Products/Eta_tempo/Eta40km/prec24/Etaens_P1D0_CPTM00/$data$hora/"pp"$data"_0084.bin"
+wget -nc http://ftp1.cptec.inpe.br/etamdl/Products/Eta_tempo/Eta40km/prec24/Etaens_P1D0_CPTM00/$data$hora/"pp"$data"_0108.bin"
+wget -nc http://ftp1.cptec.inpe.br/etamdl/Products/Eta_tempo/Eta40km/prec24/Etaens_P1D0_CPTM00/$data$hora/"pp"$data"_0132.bin"
+wget -nc http://ftp1.cptec.inpe.br/etamdl/Products/Eta_tempo/Eta40km/prec24/Etaens_P1D0_CPTM00/$data$hora/"pp"$data"_0156.bin"
+wget -nc http://ftp1.cptec.inpe.br/etamdl/Products/Eta_tempo/Eta40km/prec24/Etaens_P1D0_CPTM00/$data$hora/"pp"$data"_0180.bin"
+wget -nc http://ftp1.cptec.inpe.br/etamdl/Products/Eta_tempo/Eta40km/prec24/Etaens_P1D0_CPTM00/$data$hora/"pp"$data"_0204.bin"
+wget -nc http://ftp1.cptec.inpe.br/etamdl/Products/Eta_tempo/Eta40km/prec24/Etaens_P1D0_CPTM00/$data$hora/"pp"$data"_0228.bin"
+wget -nc http://ftp1.cptec.inpe.br/etamdl/Products/Eta_tempo/Eta40km/prec24/Etaens_P1D0_CPTM00/$data$hora/"pp"$data"_0252.bin"
+
+
+
+
 #####wget -nc ftp://ftp1.cptec.inpe.br/modelos/io/tempo/regional/Eta40km_ENS/prec24/$data$hora/* >>./LOG.prn 2>&1
 #
 # existem 10 arquivos .bin
